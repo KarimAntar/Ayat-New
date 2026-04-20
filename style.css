@@ -1,37 +1,64 @@
-/* Style for Ayat Presentation */
+/* Updated Style for Celestial Archive */
 
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Manrope', 'Noto Serif', 'Space Grotesk', sans-serif;
   background-color: #041329;
-  font-family: 'Noto Serif', serif;
   color: #C5A059;
-}
-
-.ayat-presentation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
   overflow: hidden;
 }
 
-.slide {
+.celestial-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.header {
+  text-align: center;
+  background-color: #0d1c32;
+  padding: 1.5rem 0;
+  color: #e9c176;
+  font-size: 2rem;
+}
+
+.slides {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  white-space: nowrap;
   text-align: center;
-  padding: 20px;
+}
+
+.slide {
+  margin: 20px 0;
+}
+
+.slide-title {
+  color: #e9c176;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.slide-content {
+  color: #d6e3ff;
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 
 .media-player {
+  width: 100%;
   position: fixed;
   bottom: 0;
-  width: 100%;
   display: flex;
-  justify-content: space-around;
-  background-color: #112036;
-  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(17, 32, 54, 0.6);
+  padding: 10px 20px;
+  border-top: 2px solid #e9c176;
 }

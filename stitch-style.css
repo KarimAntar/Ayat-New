@@ -1,0 +1,17 @@
+/* CSS Derived from Stitch Design */
+
+body {
+    font-family: 'Noto Serif', 'Manrope', sans-serif;
+    background-color: #041329;
+    color: #e9c176;
+}
+
+.stitch-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Additional styles from Stitch*/
+/* Add interactive elements */
